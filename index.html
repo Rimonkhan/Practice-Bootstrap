@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>First Bootstrap Use in Html</title>
+
+        <!--Font awesome cdn-->
+        <link
+            rel="stylesheet"
+            href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
+            crossorigin="anonymous">
+    </head>
+ 
+    <style>
+        .student-list{
+            margin-left: -3px;
+        }
+        .about-section{
+           background:gray;
+        }
+        .Customer-Review{
+            background:gray;
+        }
+        .service-section{
+            background:gray;
+            color:white;
+        }
+        p{
+            color:white
+        }
+       .container{
+            background-color: blue;
+           
+        }
+        .navbar-toggler-icon{
+        
+         
+        }
+        
+       
+    </style>
+
+    <body>
+
+        <div class="container">
+            <header>
+                <nav class="navbar navbar-expand-sm bg-primary">
+                    <a href="#" class="navbar-brand">
+                        <img
+                            src="https://www.studywithanis.com/wp-content/uploads/2017/01/logo.png"
+                            alt="logo"
+                            style="width:50px">
+
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active ">
+                                <a class="nav-link text-white" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Tutorial</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </nav>
+
+            </header>
+
+        </div>
+
+        <!--Body work start-->
+
+        <main class="container border mt-4">
+            <div class="service-section ">
+                <div class="title text-center m-2 ">
+                    <h3 class="font-weight-bolder text-uppercase text-dark">Services</h3>
+                </div>
+                <div>
+                    <div class="row text-left text-md-center">
+                        <div class="col-lg-3 col-md-6 ">
+                            <i
+                                class="bg-primary text-white rounded-circle p-2 mb-3 fa-2px fas fa-hands-helping"></i>
+                            <h1 class="text-uppercase b">HTML</h1>
+                            <p class="small text-white border border-primary border rounded  ">lorem ipsum'
+                                will uncover many web sites still in their infancy. Various versions have
+                                evolved over the years, sometimes by accident, sometimes on purpose (injected
+                                humour and the like Ipsum passages, and more recently with desktop publishing
+                                software like Aldus PageMaker including versions of Lorem Ipsum.
+                            </p>
+
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <i
+                                class="bg-primary text-white rounded-circle p-2 mb-3 fa-2px fas fa-hands-helping"></i>
+                            <h1 class="text-uppercase">CSS
+                            </h1>
+                            <p class="small text-white border border-primary rounded" ">
+                                lorem ipsum' will uncover many web sites still in their infancy. Various
+                                versions have evolved over the years, sometimes by accident, sometimes on
+                                purpose (injected humour and the like Ipsum passages, and more recently with
+                                desktop publishing software like Aldus PageMaker including versions of Lorem
+                                Ipsum.
+                            </p>
+
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <i
+                                class="bg-primary text-white rounded-circle p-2 mb-3 fa-2px fas fa-hands-helping"></i>
+                            <h1 class="text-uppercase">JAVASCRIPT</h1>
+                            <p class="small text-white border border-primary rounded" ">
+                                lorem ipsum' will uncover many web sites still in their infancy. Various
+                                versions have evolved over the years, sometimes by accident, sometimes on
+                                purpose (injected humour and the like Ipsum passages, and more recently with
+                                desktop publishing software like Aldus PageMaker including versions of Lorem
+                                Ipsum.
+                            </p>
+
+                        </div>
+
+                        <div class="col-lg-3 col-md-6">
+                            <i
+                                class="bg-primary text-white rounded-circle p-2 mb-3 fa-2px fas fa-hands-helping "></i>
+                            <h1 class="text-uppercase">PHP</h1>
+                            <p class="small text-white border border-primary rounded">
+                                lorem ipsum' will uncover many web sites still in their infancy. Various
+                                versions have evolved over the years, sometimes by accident, sometimes on
+                                purpose (injected humour and the like Ipsum passages, and more recently with
+                                desktop publishing software like Aldus PageMaker including versions of Lorem
+                                Ipsum.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!--About section start-->
+                <!--tutorial Section Start-->
+                <div class="Tutorial">
+                    <div>
+                        <div class="title text-center m-3 ">
+                            <h3 class="font-weight-bolder text-uppercase ">Tutorial</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="card ">
+                                    <img class="card-img-top" src="Image/HTML.JPG" alt="img-card">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-center text-danger">HTML</h4>
+                                        <p class="card-text text-center text-black">orem ipsum' will uncover many web sites still
+                                            in their infancy. Various versions have evolved over the years, sometimes by
+                                            accident, sometimes on purpose (injected humour and the like Ipsum passages, and
+                                            more recently with desktop publishing software like Aldus PageMaker including
+                                            versions of</p>
+                                        <a
+                                            class="card-link stretched-link"
+                                            href="https://www.w3schools.com/html/default.asp"
+                                            target="_blank">Visit my Plylist
+                                        </a>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card ">
+                                    <img class="card-img-top" src="Image/CSS.jpg" alt="img-card">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-center text-danger">CSS</h4>
+                                        <p class="card-text text-center text-black">orem ipsum' will uncover many web sites still
+                                            in their infancy. Various versions have evolved over the years, sometimes by
+                                            accident, sometimes on purpose (injected humour and the like Ipsum passages, and
+                                            more recently with desktop publishing software like Aldus PageMaker including
+                                            versions of</p>
+                                        <a
+                                            class="card-link stretched-link"
+                                            href="https://www.w3schools.com/css/default.asp"
+                                            target="_blank">Visit my Plylist
+                                        </a>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card ">
+                                    <img class="card-img-top" src="Image/JAVA.JPG" alt="img-card">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-center text-danger">Javascript</h4>
+                                        <p class="card-text text-center text-black">orem ipsum' will uncover many web sites still
+                                            in their infancy. Various versions have evolved over the years, sometimes by
+                                            accident, sometimes on purpose (injected humour and the like Ipsum passages, and
+                                            more recently with desktop publishing software like Aldus PageMaker including
+                                            versions of</p>
+                                        <a
+                                            class="card-link stretched-link"
+                                            href="https://www.w3schools.com/js/default.asp"
+                                            target="_blank">Visit my Plylist
+                                        </a>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card ">
+                                    <img class="card-img-top" src="Image/PHP.jpg" alt="img-card">
+                                    <div class="card-body">
+                                        <h4 class="card-title text-center text-danger">PHP</h4>
+                                        <p class="card-text text-center text-black">orem ipsum' will uncover many web sites still
+                                            in their infancy. Various versions have evolved over the years, sometimes by
+                                            accident, sometimes on purpose (injected humour and the like Ipsum passages, and
+                                            more recently with desktop publishing software like Aldus PageMaker including
+                                            versions of</p>
+                                        <a
+                                            class="card-link stretched-link"
+                                            href="https://www.w3schools.com/php/default.asp"
+                                            target="_blank">Visit my Plylist
+                                        </a>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!--Tutorial Section End-->
+
+                <div class="about-section  border m-3">
+                    <div class="jumbotron">
+                        <div class="title text-center m-3 ">
+                            <h3 class=" text-uppercase text-dark">Introduction Myself</h3>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 text-center">
+
+                            <img
+                                class="img-fluid border border-thumbnail rounded-circle text-center"
+                                src="Image/Rimon.jpg"
+                                alt="">
+                        </div>
+                        <div class=" text-right col-lg-8">
+                            <p>It's My Pleasure Introduce to my self In font of you sir, I am Rimon Khan,I
+                                grew up in Bogura District ,But I live in Gazipur.I have complite SSC From North
+                                South Loskor Chala High School & College in The Year 2017,And HSC From Mouchak
+                                Scout High School and College in the Year 2019.I am Currently Studying Computer
+                                Science & Engineering at German University Bangladesh. My strength are , I am
+                                fast learner and hard worker.
+                                <a href="#demo" data-bs-toggle="collapse">Learn More</a>
+                                <div id="demo" class="collapse">
+                                    <p>
+                                        ver the years, sometimes by accident, sometimes on purpose (injected humour and
+                                        the like Ipsum passages, and more recently with desktop publishing software like
+                                        Aldus PageMaker including versions of Lorem Ipsum. Loskor Chala High School &
+                                        College in The Year 2017,And HSC From Mouchak Scout High School and College in
+                                        the Year 2019.I am Currently Studying Computer Science & Engineering at German
+                                        University Bangladesh. My strength are , I am fast learner and hard worker. ver
+                                        the years, sometimes by accident, sometimes on purpose (injected humour and the
+                                        like Ipsum passages, and more recently with desktop publishing software like
+                                        Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                </div>
+                            </p>
+
+                            <button class="btn-block btn btn-outline-primary btn-rounded mb-3">CD Download
+                            </button>
+                            <div class="alert alert-success alert-dismissible m-2">
+                                <button class="close" data-bs-dismiss="alert">&times;</button>
+                                Have You Visit My Facebook Page ?
+                                <a href="https://www.facebook.com/Rimu998/">Visit Here</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--About section End-->
+                </div>
+
+                <!--Education Section Start-->
+                <div class="education-section my-5">
+                    <div class="title text-center m-3 ">
+                        <h3 class=" text-uppercase text-dark">Education</h3>
+                       <table class="table table-striped table-bordered table-hover table-dark text-center">
+                           <thead class="thead-primary">
+                               <tr>
+                                   <th>Qualification</th>
+                                   <th>Institution</th>
+                                   <th>Passing Year</th>
+                                   <th>Grade</th>
+                               </tr>
+                           </thead>
+                           <tbody>
+                               <tr>
+                                   <td>SSC</td>
+                                   <td>Unique  School And College</td>
+                                   <td>2017</td>
+                                   <td>4.73/5.00</td>
+                               </tr>
+                              <tr>
+                                   <td>HSC</td>
+                                   <td>Mouchak High School And College</td>
+                                   <td>2019</td>
+                                   <td>3.89/5.00</td>
+                               </tr>
+                               <tr>
+                                   <td>Bcs CSE Running</td>
+                                   <td>German University Bangladesh</td>
+                                   <td>2021</td>
+                                   <td>Summer Semister</td>
+                               </tr>
+
+                           </tbody>
+                       </table>
+                    </div>
+
+
+                </div>
+                <!--Education Section End-->
+                <!--Customer review sectioon-->
+
+                <div>
+                    <div class="Customer-Review text-center  m-3 border ">
+                        <h3 class=" font-weight-bolder text-uppercase text-dark text-center ">Customer Review</h3>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <blockquote class="blockquote blockquote">
+                                    <i class=" p-2 fa-3x fas fa-user-circle"></i>
+                                    <p class="border border rounded m-2">
+                                        lorem ip sum is a ver the years, sometimes by accident, sometimes on purpose
+                                        (injected humour and the like Ipsum passages, and more recently with desktop
+                                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.We
+                                        can learn
+                                        <abbr title="Bootstrap 4">BS4</abbr>
+                                    </p>
+                                </blockquote>
+                                <footer class="blockquote-footer">
+                                    Rimon Khan
+                                    <cite>Software Engineering</cite>
+                                </footer>
+                            </div>
+                            <div class="col-lg-4">
+                                <blockquote class="blockquote blockquote">
+                                    <i class=" p-2 fa-3x fas fa-user-circle"></i>
+                                    <p class="border border rounded m-2">
+                                        lorem ip sum is a ver the years, sometimes by accident, sometimes on purpose
+                                        (injected humour and the like Ipsum passages, and more recently with desktop
+                                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.We
+                                        can learn
+                                        <abbr title="Bootstrap 4">BS4</abbr>
+                                    </p>
+                                </blockquote>
+                                <footer class="blockquote-footer">
+                                    Rimon Khan
+                                    <cite>Software Engineering</cite>
+                                </footer>
+                            </div>
+                            <div class="col-lg-4">
+                                <blockquote class="blockquote blockquote">
+                                    <i class=" p-2 fa-3x fas fa-user-circle"></i>
+                                    <p class="border border rounded m-2">
+                                        lorem ip sum is a ver the years, sometimes by accident, sometimes on purpose
+                                        (injected humour and the like Ipsum passages, and more recently with desktop
+                                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.We
+                                        can learn
+                                        <abbr title="Bootstrap 4">BS4</abbr>
+                                    </p>
+                                </blockquote>
+                                <footer class="blockquote-footer">
+                                    Rimon Khan
+                                    <cite>Software Engineering</cite>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="media-section">
+                    <div class="title text-center mb-3">
+                        <h3 class="font-weight-bolder">My Blogs</h3>
+                    </div>
+                    <div class="body-media border p-3 mt-3">
+                        <img  style="width: 80px;" class="img-blogs rounded-circle mr-3 img-thumbnail align-self-end" src="Image/Rimon.jpg" alt="img" >
+                       <div class="blogs-section media-body">
+                            <h5 >I love programming and teaching</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis veritatis corporis aliquid, aut quidem vitae repudiandae molestiae dolor quis quisquam.</p>
+                       </div>
+                    </div>
+                    <div class="media border p-3 mt-3">
+                        <img style="width: 80px;" class="rounded-circle mr-3" src="Image/Rimon.jpg" alt="img" >
+                        <div class="media-body">
+                             <h5 >I love programming and teaching</h5>
+                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis veritatis corporis aliquid, aut quidem vitae repudiandae molestiae dolor quis quisquam epudiandae molestiae dolor quis qui.</p>
+                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis veritatis corporis aliquid, aut quidem vitae repudiandae molestiae dolor quis quisquam.epudiandae molestiae dolor quis qui</p>
+                       
+                        </div>
+                      
+                     </div>
+
+                    <div class="media border p-3 mt-3">
+                    
+                       <div class="media-body">
+                            <h5 >I love programming and teaching</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis veritatis corporis aliquid, aut quidem vitae repudiandae molestiae dolor quis quisquam.</p>
+                      
+                       </div>
+                       <img style="width: 80px;" class="rounded-circle mr-3" src="Image/Rimon.jpg" alt="img" >
+                     
+                    </div>
+
+                  
+                </div>
+                <div class="student-list">
+                    <ul class="list-group">
+                        <li class="list-group-item bg-primary text-white ">Rimon Khan</li>
+                        <li  class="list-group-item bg-success text-white">Rabeya Begum</li>
+                        <li  class="list-group-item bg-secondary text-white">Abdul Mukit</li>
+                        <a href="#" class="list-group-item list-group-item-action bg-primary text-white text-center">Rahim</a>
+                    </ul>
+                </div>
+                <!--Contact Section Start-->
+                <div class="contact-section bg-primary text-white border border-2 my-4 p-3">
+                    <div class="title text-center mb-3">
+                        <h3 class="font-weight-bolder text-uppercase ">Contact</h3>
+                    </div>
+                    <form action="" class="w-50 m-auto was-validated">
+                        <div class="form-group">
+                            <label for="fullname">Fullname</label>
+                            <input type="text" class="form-control" name="fullname" required>
+                            <div class="valid-feedback">Valid</div>
+                            <div class="invalid-feedback text-danger">Please Enter Your Full Name as son as possible</div>
+                        </div>
+                       <div class="form-group">
+                           <label for="email">Email</label>
+                        <input type="Email" class="form-control" name="email">
+                       
+                            <div class="invalid-feedback text-danger">Please Enter Your Valid Email Address</div>
+
+                       </div>
+                      <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" class="form-control" name="subject">
+                        </div>
+                       <div class="form-group">
+                           <label for="message">Message</label>
+                         <textarea name="" id="" class="form-control" cols="30" rows="10"></textarea>
+                       </div>
+                       <div class="btn  mt-2">
+                        <button type="submit" class="btn btn-secondary" value="submit">Submit</button>
+                        <button type="reset"class="btn btn-secondary" value="button">Reset</button>
+
+                       </div>
+                       
+                        
+                    </form>
+
+                </div>
+                <!--Contact  Section End-->
+                <ul class="pagination py-3 justify-content-center bg-dark mx-auto">
+                    <li class="page-item">
+                        <a class="page-link" href="#">Previes</a>
+                    </li>
+                    <li class="page-item ">
+                        <a class="page-link" href="#">1</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">2</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">3</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">4</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            </main>
+            <!-- Customer Review section End-->
+
+            <!--Media seCton END-->
+        
+            <footer>
+            <h6>Please </h6>
+                
+
+        </footer>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+            crossorigin="anonymous"></script>
+
+    </body>
+</html>
